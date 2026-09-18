@@ -1,0 +1,17 @@
+{
+  "name": "x-watch-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that watches X/Twitter handles via twitterapi.io and alerts on new tweets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
